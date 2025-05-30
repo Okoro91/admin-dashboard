@@ -24,3 +24,25 @@ ul {
    grid-template-rows: repeat(3, min-content);
    gap: 20px;
 }
+
+.main-content {
+    display: grid;
+    gap: 20px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header-user {
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header-buttons {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 5px;
+}
