@@ -9,7 +9,9 @@ body {
     font-family: "Roboto", sans-serif;
     color: rgb(40, 42, 43);
 }
-
+.cdl {
+ color: white;
+}
 ul {
     list-style: none;
 }
