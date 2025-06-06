@@ -60,7 +60,7 @@ ul {
     grid-template-rows: 1fr 1fr;
     background-color: #ffffff;
     box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.1);
-    padding: 15px;
+    padding: 10px;
 }
 
 .avatar {
@@ -91,14 +91,33 @@ ul {
 }
 
 .header-user {
-    display: inline-grid;
-    grid-template-columns: 1fr 2fr;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-avatar {
+    width: 50px;
+}
+.user-text {
+    
 }
 
 .header-buttons {
-    display: inline-grid;
-    grid-template-columns: repeat(3, 50px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 5px;
+    align-items: center;
+}
+button {
+    width: 70px;
+    height: 25px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    background-color: #1992d4;
+    border-radius: 20px;
 }
 
 .content {
