@@ -25,8 +25,9 @@ This project is a responsive dashboard interface built with HTML and CSS, featur
 ## Credits
 - The Odin Project: This project was completed as part of The Odin Project's CSS Grid curriculum theodinproject.com.
 
+## Resources
 - Icons: Material Design Icons
-
+- avatar : https://www.dicebear.com/playground/
 - Fonts: Google Fonts - Roboto
 
 
