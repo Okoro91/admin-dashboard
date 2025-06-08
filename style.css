@@ -121,6 +121,7 @@ button {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
+    padding-bottom: 10px;
 }
 
 .projects {
@@ -162,4 +163,40 @@ p {
     grid-template-columns: repeat(3, 15px);
     justify-content: end;
     align-self: end;
+}
+.announcements {
+    align-self: center;
+}
+
+.announcements-block, .trending-card {
+    width: 160px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.announcement-card {
+    padding: 8px;
+}
+.line {
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.trending {
+}
+
+.trending-item {
+display: grid;
+grid-template-columns: 37px 1fr;
+align-items: center;
+}
+
+.announcements h2, .trending h2 {
+    font-size: 11px;
+}
+.announcements h3, .trending h3 {
+    font-size: 8px;
+}
+
+.announcements p, .trending p {
+    font-size: 7px;
 }
